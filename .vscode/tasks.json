@@ -1,0 +1,23 @@
+﻿{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Iniciar API de productos",
+      "type": "process",
+      "command": "php",
+      "args": ["-S", "localhost:3000", "-t", "backend"],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "isBackground": true,
+      "problemMatcher": [],
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "presentation": {
+        "reveal": "silent",
+        "panel": "dedicated"
+      }
+    }
+  ]
+}

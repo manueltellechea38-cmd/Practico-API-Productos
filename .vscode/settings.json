@@ -1,0 +1,7 @@
+﻿{
+    "terminal.integrated.stickyScroll.enabled":  false,
+    "liveServer.settings.root":  "/frontend",
+    "liveServer.settings.port":  5501,
+    "task.allowAutomaticTasks":  "on",
+    "liveServer.settings.host":  "127.0.0.1"
+}
